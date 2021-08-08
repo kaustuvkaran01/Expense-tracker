@@ -1,7 +1,11 @@
 {
   "name": "expense-tracker",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "Backend for expense tracker",
+=======
+  "description": "Backend for the Expense-Tracker",
+>>>>>>> 527339f (chore: server init)
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +21,7 @@
   },
   "homepage": "https://github.com/kaustuvkaran01/Expense-tracker#readme",
   "dependencies": {
+<<<<<<< HEAD
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
@@ -25,6 +30,16 @@
   "devDependencies": {
     "concurrently": "^6.2.1",
     "morgan": "^1.10.0",
+=======
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+>>>>>>> 527339f (chore: server init)
     "nodemon": "^2.0.12"
   }
 }
