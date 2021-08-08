@@ -7,8 +7,8 @@ export default function IncomeExpenses() {
 	console.log(amounts);
 	const income = amounts.filter((amount) => amount > 0);
 	const expense = amounts.filter((amount) => amount < 0);
-	const incomes = income.reduce((acc, item) => acc + item);
-	const expenses = expense.reduce((acc, item) => acc + item);
+	const incomes = income.reduce((acc, item) => acc + item, 0).toFixed(2);
+	const expenses = expense.reduce((acc, item) => acc + item, 0).toFixed(2);
 	return (
 		<div className="inc-exp-container">
 			<div>
