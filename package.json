@@ -1,0 +1,19 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "Backend for expense tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaustuvkaran01/Expense-tracker.git"
+  },
+  "author": "Kaustuv Karan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaustuvkaran01/Expense-tracker/issues"
+  },
+  "homepage": "https://github.com/kaustuvkaran01/Expense-tracker#readme"
+}
