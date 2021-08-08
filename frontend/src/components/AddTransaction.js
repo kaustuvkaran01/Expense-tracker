@@ -43,7 +43,7 @@ export default function AddTransaction() {
 					/>
 				</div>
 				<button type="submit" className="btn">
-					Add transaction
+					Add a new transaction
 				</button>
 			</form>
 		</div>
