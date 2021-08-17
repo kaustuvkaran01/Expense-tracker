@@ -1,4 +1,4 @@
-import { STATES } from "mongoose";
+// import { STATES } from "mongoose";
 
 const reducer = (state, action) => {
 	switch (action.type) {
